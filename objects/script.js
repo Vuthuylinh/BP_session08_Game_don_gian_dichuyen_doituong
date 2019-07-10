@@ -25,15 +25,15 @@ function Hero(image, top, left, size,speed){
   };
   this.moveDown=function () {
     this.top+=this.speed;
-    console.log('ok'+this.down)
+    console.log('ok'+this.top)
   };
   this.moveLeft=function () {
     this.left -=this.speed;
-    console.log('ok'+ this.right);
+    console.log('ok'+ this.left);
   };
   this.moveUp=function () {
     this.top -=this.speed;
-    console.log('ok'+this.up);
+    console.log('ok'+this.top);
   }
 
 }
